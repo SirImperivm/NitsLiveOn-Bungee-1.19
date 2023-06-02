@@ -16,7 +16,7 @@ public class LiveCommand extends Command {
 
     private Main plugin;
     public LiveCommand(Main plugin) {
-        super("liveon");
+        super("live");
         this.plugin = plugin;
     }
 
