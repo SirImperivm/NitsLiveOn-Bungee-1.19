@@ -1,0 +1,3 @@
+name: NitsLiveOn
+version: '${project.version}'
+main: me.sirimperivm.bungee.Main

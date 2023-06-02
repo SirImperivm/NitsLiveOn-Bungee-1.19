@@ -1,0 +1,35 @@
+settings:
+  liveSuffix: " &5&lLIVE ON&r"
+help:
+  liveCommand:
+    - "§8§m                              "
+    - ""
+    - "§a/live on"
+    - "§a/live off"
+    - ""
+    - "§8§m                              "
+  adminCommand:
+    - "§8§m                              "
+    - ""
+    - "§a/liveon reload"
+    - ""
+    - "§8§m                              "
+messages:
+  prefixes:
+    success: "§8[§8a!§8] §7"
+    fail: "§8[§8c!§8] §7"
+  success:
+    plugin:
+      reloaded: "%pPlugin ricaricato con successo."
+  errors:
+    no-perm: "%pNon hai accesso al comando."
+    no-console: "%pQuesto comando è accessibile solo dagli utenti in gioco."
+permissions:
+  userCommands:
+    live:
+      main: liveon.use
+      on: liveon.use
+      off: liveon.use
+  adminCommands:
+    main: liveon.admin
+    reload: liveon.reload
