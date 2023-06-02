@@ -46,7 +46,7 @@ public class LiveCommand extends Command {
                 } else {
                     if (a[0].equalsIgnoreCase("on")) {
                         String liveSuffix = conf.getCfg().getString("settings.liveSuffix");
-                        String suffixCommand = "lpb user %username% meta setsuffix 1000 %suffix%"
+                        String suffixCommand = "lpb user %username% permission set \"suffix.1000. &5&lLIVE ON\""
                                 .replace("%username%", p.getName())
                                 .replace("%suffix%", liveSuffix)
                                 ;
