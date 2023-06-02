@@ -51,11 +51,16 @@ public class LiveCommand extends Command {
                                 .replace("%suffix%", liveSuffix)
                                 ;
                         ProxyServer.getInstance().getPluginManager().dispatchCommand(ProxyServer.getInstance().getConsole(), suffixCommand);
+                        p.sendMessage(new TextComponent(ConfigManager.getTrans("messages.success.live.on")
+                                .replace("%p", Prefix("success"))
+                                .replace("%suffix%", liveSuffix)));
                     } else if (a[0].equalsIgnoreCase("off")) {
                         String suffixCommand = "lpb user %username% meta removesuffix 1000"
                                 .replace("%username%", p.getName())
                                 ;
                         ProxyServer.getInstance().getPluginManager().dispatchCommand(ProxyServer.getInstance().getConsole(), suffixCommand);
+                        p.sendMessage(new TextComponent(ConfigManager.getTrans("messages.success.live.off")
+                                .replace("%p", Prefix("success"))));
                     } else {
                         getUsage(p);
                     }

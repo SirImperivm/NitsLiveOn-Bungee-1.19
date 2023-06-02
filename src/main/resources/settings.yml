@@ -21,6 +21,9 @@ messages:
   success:
     plugin:
       reloaded: "%pPlugin ricaricato con successo."
+    live:
+      on: "%pInserito il suffisso %suffix%&7."
+      off: "%pRimosso il suffisso."
   errors:
     no-perm: "%pNon hai accesso al comando."
     no-console: "%pQuesto comando è accessibile solo dagli utenti in gioco."
