@@ -60,7 +60,7 @@ public class LiveCommand extends Command {
                                 ;
                         ProxyServer.getInstance().getPluginManager().dispatchCommand(ProxyServer.getInstance().getConsole(), suffixCommand);
                         p.sendMessage(new TextComponent(ConfigManager.getTrans("messages.success.live.off")
-                                .replace("%p", Prefix("success"))));;
+                                .replace("%p", Prefix("success"))));
                     } else {
                         getUsage(p);
                     }
