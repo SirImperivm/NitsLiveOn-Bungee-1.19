@@ -16,8 +16,8 @@ help:
     - "§8§m                              "
 messages:
   prefixes:
-    success: "§8[§8a!§8] §7"
-    fail: "§8[§8c!§8] §7"
+    success: "§8[§a!§8] §7"
+    fail: "§8[§c!§8] §7"
   success:
     plugin:
       reloaded: "%pPlugin ricaricato con successo."
